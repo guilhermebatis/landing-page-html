@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class='main-bg'>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close-menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="document.getElementById('close-menu').checked = false"><a href="#">LOGO</a></h1>
+
+            <nav>
+                <ul onclick="document.getElementById('close-menu').checked = false">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#top3">Top3</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="home main-bg section">
+        <div class="main-content home-content">
+            <div class="home-text-content">
+                <h2>JANUARY BRINGS US FIREFOX 85</h2>
+                <p>we are proud to bring you the release of Firefox 85. In this version we are bringing you support
+                    for
+                    the
+                    :focus-visible pseudo-class in CSS and associated devtools,
+                    , and the complete removal of Flash support from Firefox. We’d also like to
+                    invite
+                    you
+                    to preview two exciting new JavaScript features in the current Firefox Nightly — top-level await and
+                    relative indexing via the .at() method. Have fun!
+                </p>
+            </div>
+            <div class="home-img"><img src="/landing_page_html/assets/img/undraw_static-assets_di5m.svg" alt="
+                    a man holding the css logo, a woman pushing the javascript logo, and a man holding the html logo">
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="white-bg section">
+        <div class="main-content intro-content">
+            <h2>NEWS</h2>
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and
+                some surprises at the machine’s performance. This post details some background information on the
+                experience of porting Firefox to run natively on these CPUs.
+            </p>
+            <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that
+                needed to know about the new architecture, before moving on to the concept of Universal Binaries.
+            </p>
+            <p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur,
+                and discuss various updater problems we had to deal with. We’ll conclude with the release and an
+                overview of various other improvements that are in the pipeline.
+            </p>
+        </div>
+    </section>
+
+    <section id="top3" class="main-bg section top3">
+        <div class="top3-content main-content">
+            <h2>TOP 3</h2>
+            <div class="grid">
+                <article>
+                    <h3>HTML</h3>
+                    <p>HTML (HyperText Markup Language) is the standard markup language for documents designed to be
+                        displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets
+                        (CSS)
+                        and scripting languages such as JavaScript</p>
+                </article>
+                <article>
+                    <h3>CSS</h3>
+                    <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a
+                        document written in a markup language such as HTML. CSS is a cornerstone technology of the World
+                        Wide Web, alongside HTML and JavaScript.</p>
+                </article>
+                <article>
+                    <h3>JAVASCRIPT</h3>
+                    <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript
+                        specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has
+                        curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class
+                        functions.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="white-bg section">
+        <div class="main-content gallery-content">
+            <h2>GALLERY</h2>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://fastly.picsum.photos/id/666/360/360.jpg?hmac=iN8nLkztoIAE1qeOMxDVRLaZFw-q51Y8G5VnpU8M0Mk"
+                        alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://fastly.picsum.photos/id/510/360/360.jpg?hmac=JQhLxJJ8YIQPCZ4RYoZjGBLrOvBN-CH7R4gEM7NyU9g"
+                        alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://fastly.picsum.photos/id/365/360/360.jpg?hmac=PRGrGmW6wbwdD4E25FfZkzMMqJP3DHuShUxxZDFaoVM"
+                        alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://fastly.picsum.photos/id/22/360/360.jpg?hmac=VZIjDPSZy87gXzyp42xH5_4sm_pkcSQ57FgcuAP7WSI"
+                        alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://fastly.picsum.photos/id/340/360/360.jpg?hmac=Gk2VUyAs-KRDafJnnttOFPXXJIq0RUBhxuaLYqowgX0"
+                        alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://fastly.picsum.photos/id/294/360/360.jpg?hmac=aO4_3TSlrLVUvhC2mmTskX26qjP6kodbkrv4xYFjBb8"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="main-bg section">
+        <div class="main-content intro-content">
+            <h2>PRICING</h2>
+            <p>
+                To set prices, calculate your product's cost per unit by adding fixed and variable costs, then determine
+                a profit margin that aligns with your financial goals and the market. Research your customers to
+                understand their needs and willingness to pay, and analyze your competitors' pricing to stay
+                competitive. Finally, choose a pricing strategy, such as cost-plus, competitive, or value-based, to
+                guide your pricing decisions.
+            </p>
+            <div class="responsive-table">
+                <table>
+                    <caption>pricing table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>content 1</td>
+                            <td>content 2</td>
+                            <td>content 3</td>
+                        </tr>
+                        <tr>
+                            <td>content 1</td>
+                            <td>content 2</td>
+                            <td>content 3</td>
+                        </tr>
+                        <tr>
+                            <td>content 1</td>
+                            <td>content 2</td>
+                            <td>content 3</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">total</td>
+                            <td>X</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact" class="white-bg section">
+        <div class="main-content contact-content">
+            <div class="contact-me">
+                <img src="/landing_page_html/assets/img/contact_me.svg" alt="">
+            </div>
+
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+                    <div class="form-grop">
+                        <label for="First-name">First name</label>
+                        <input type="text" name="First-name" id="First-name" placeholder="Type your first name">
+                    </div>
+                    <div class="form-grop">
+                        <label for="last-name">last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Type your last name">
+                    </div>
+                    <div class="form-grop">
+                        <label for="Email">Email</label>
+                        <input type="email" name="Email" id="Email" placeholder="Type your Email">
+                    </div>
+                    <div class="form-grop full-whidth">
+                        <label for="message">message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message"></textarea>
+                    </div>
+                    <div class="form-grop full-whidth">
+                        <button type="submit">Send message</button>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <a href="#home" class="back-to-top">⇧</a>
+
+    <footer id="footer" class="main-bg footer"><p>Feito com ❤️ Guilherme Batista</p></footer>
+</body>
+
+</html>
